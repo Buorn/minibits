@@ -63,11 +63,11 @@ MiniBit/
 1. Edite `files/original.txt` com um conteúdo qualquer
 2. Execute o Tracker:
    ```bash
-   python3 tracker.py
+   ./scripts/start_tracker.sh
    ```
 3. Em outro terminal, execute o script:
    ```bash
-   bash run.sh
+   ./scripts/start_peer.sh
    ```
 4. Aguarde a execução. Os arquivos reconstruídos aparecerão em `files/downloads/`.
 
