@@ -43,11 +43,13 @@ MiniBit/
 ├── logs/                  # Logs dos peers
 ├── tracker.py             # Servidor Tracker
 ├── peer.py                # Código dos Peers
-├── shared.py              # Utilitários comuns (hash, logging, etc.)
 ├── file_utils.py          # Funções de split/join do arquivo
 ├── config.py              # Parâmetros globais
 ├── README.md              # Este arquivo
-└── run.sh                 # Script de inicialização
+├── scripts/               # Scripts de inicialização
+    ├── start_tracker.sh   # Script de inicialização do Tracker
+    └── start_peer.sh      # Script de inicialização dos peers
+
 ```
 
 ## ⚙️ Como Executar
